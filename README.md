@@ -17,9 +17,11 @@ These are study prompts and selected reference links, not a complete textbook or
 
 ## Hosting status
 
-The GitHub repository remains private. GitHub Pages has **not** been enabled: the account's Pages settings require an upgrade or a public repository. A public website or repository requires the owner's separate approval.
+[Open Learning Expedition](https://ab26.github.io/paper-expedition/)
 
-`docs/` contains the complete prebuilt static application for GitHub Pages. Once privacy/plan eligibility is resolved, select the publishing branch and `/docs` directory in Settings → Pages. No server, database, model API or ChatGPT hosting is required for this build.
+The repository is public with the owner's approval. GitHub Pages is enabled from `main` → `/docs`.
+
+`docs/` contains the complete prebuilt static application for GitHub Pages. No server, database, model API or ChatGPT hosting is required for this build.
 
 The older ChatGPT-hosted app remains a separate deployment. Its saved notes are not automatically migrated. This repository update does not redeploy it.
 
@@ -54,4 +56,4 @@ User-entered notes, database contents, credentials, dependencies and runtime sta
 
 ## Validation
 
-Build and type checking, calendar exclusions and counts, paper completion date, storage/backup round trips, malformed-data rejection and quota failures are checked. Local browser preview was unavailable in the execution environment; final visual/interaction verification on the hosted GitHub Pages site remains pending publication.
+Build and type checking, calendar exclusions and counts, paper completion date, storage/backup round trips, malformed-data rejection and quota failures are checked. The published GitHub Pages site was visually checked: the daily dashboard and 98-paper catalog render, a note persists after reload, and the dot-product exercise correctly checks an answer and reveals its worked solution.
