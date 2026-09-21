@@ -1,0 +1,12 @@
+import {database} from '@/lib/database';
+import papers from '@/lib/papers.json';
+export const dynamic='force-dynamic';
+export async function GET(){try{const db=database();const [r,s]=await Promise.all([db.prepare('SELECT * FROM reading').all(),db.prepare('SELECT start FROM settings WHERE id = ?').bind('plan').first<{start:string}>()]);return Response.json({records:r.results,start:s?.start??'2026-09-20'},{headers:{'Cache-Control':'no-store'}});}catch(e){console.error(e);return Response.json({error:'Your saved progress could not be loaded. Please try again.'},{status:503});}}
+export async function POST(request:Request){try{
+ const origin=request.headers.get('origin');if(origin&&origin!==new URL(request.url).origin)return Response.json({error:'Invalid origin'},{status:403});
+ const b:any=await request.json();if(!b||typeof b!=='object'||Array.isArray(b))return Response.json({error:'Invalid payload'},{status:400});const db=database();
+ if(b.start!==undefined){if(typeof b.start!=='string'||!/^20\d\d-\d\d-\d\d$/.test(b.start)||Number.isNaN(Date.parse(b.start))||new Date(b.start).toISOString().slice(0,10)!==b.start)return Response.json({error:'Choose a valid start date.'},{status:400});await db.prepare('INSERT INTO settings (id,start) VALUES (?,?) ON CONFLICT(id) DO UPDATE SET start=excluded.start').bind('plan',b.start).run();return Response.json({ok:true});}
+ if(!papers.some(p=>p.id===b.id)||!['Not started','Reading','Read','Revisit'].includes(b.status)||!Number.isInteger(b.confidence)||b.confidence<0||b.confidence>5||!b.notes||typeof b.notes!=='object'||Array.isArray(b.notes))return Response.json({error:'Invalid reading record.'},{status:400});
+ const fields=['problem','idea','equation','evidence','limitations','connection','questions','summary'];const notes:Record<string,string>={};for(const k of fields){if(typeof(b.notes[k]??'')!=='string'||(b.notes[k]??'').length>12000)return Response.json({error:'Notes are too long.'},{status:400});notes[k]=b.notes[k]??'';}
+ await db.prepare('INSERT INTO reading (id,status,notes,confidence,updated) VALUES (?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET status=excluded.status,notes=excluded.notes,confidence=excluded.confidence,updated=excluded.updated').bind(b.id,b.status,JSON.stringify(notes),b.confidence,new Date().toISOString()).run();return Response.json({ok:true});
+ }catch(e){console.error(e);return Response.json({error:'Could not save. Your notes remain open; please try again.'},{status:503});}}
