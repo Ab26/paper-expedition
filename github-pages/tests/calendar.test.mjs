@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {prepDates,readingDates,excluded} from '../../hub/calendar.ts';
+import {exercise} from '../../hub/exercises.ts';
+import fs from 'node:fs';
+const content=JSON.parse(fs.readFileSync(new URL('../../hub/content.json',import.meta.url)));
+test('all 86 preparation days respect Sundays and both breaks',()=>{assert.equal(prepDates.length,86);assert.equal(prepDates[0],'2026-09-22');assert.equal(prepDates.at(-1),'2027-01-15');assert.equal(prepDates.filter(d=>d<='2026-12-31').length,73);assert(prepDates.every(d=>!excluded(d)));assert.equal(new Set(prepDates).size,86);assert.equal(content.lessons.length,86)});
+test('196 paper sessions finish 24 May without scheduling in breaks',()=>{assert.equal(readingDates.length,196);assert.equal(readingDates.at(-1),'2027-05-24');assert(readingDates.every(d=>!excluded(d)))});
+test('worked hand examples agree with independent known results',()=>{assert.equal(exercise(1,0).answer,-2);assert.equal(exercise(6,0).answer,15);assert.equal(exercise(14,1).answer,392);assert.equal(exercise(15,3).answer,128);assert.equal(exercise(17,2).answer,72);assert.equal(exercise(22).answer,128);assert(Math.abs(exercise(23).answer-.04)<1e-12)});
+test('every daily hand-work reference points to a valid exercise',()=>{for(const d of content.lessons){assert(d.hand>=0&&d.hand<24);assert(Number.isFinite(exercise(d.hand).answer));assert(d.goal&&d.code&&d.url.startsWith('https://'))}});

@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const html=fs.readFileSync('docs/index.html','utf8');
+const jsPath=html.match(/<script[^>]*src="\.\/([^\"]+)"[^>]*><\/script>/)?.[1];
+const cssPath=html.match(/<link[^>]*href="\.\/([^\"]+\.css)"[^>]*>/)?.[1];
+if(!jsPath||!cssPath)throw Error('Missing built assets');
+const js=fs.readFileSync(path.join('docs',jsPath),'utf8').replace(/<\/script/gi,'<\\/script');
+const css=fs.readFileSync(path.join('docs',cssPath),'utf8').replace(/<\/style/gi,'<\\/style');
+let out=html.replace(/<script[^>]*src="\.\/[^\"]+"[^>]*><\/script>/,()=>`<script type="module">${js}</script>`).replace(/<link[^>]*href="\.\/[^\"]+\.css"[^>]*>/,()=>`<style>${css}</style>`).replace(/<link rel="icon"[^>]*>/,'');
+fs.mkdirSync('work',{recursive:true});fs.writeFileSync('work/Learning-Expedition.html',out);fs.writeFileSync('docs/.nojekyll','');
+console.log('Created self-contained HTML ('+Buffer.byteLength(out)+' bytes)');

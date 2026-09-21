@@ -1,0 +1,6 @@
+.backup-controls {margin:0 0 24px;}
+.backup-controls summary {cursor:pointer;font-weight:600;}
+.backup-controls p {max-width:850px;line-height:1.65;margin:12px 0;}
+.backup-buttons {display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+.backup-buttons label {display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+.backup-buttons input {max-width:240px;font-size:12px;}
