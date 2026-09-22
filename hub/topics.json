@@ -1,0 +1,1534 @@
+[
+  {
+    "id": "linear-algebra",
+    "subject": "ML",
+    "title": "Vectors, matrices and tensor shapes",
+    "section": "Linear algebra; matrix factorization",
+    "fast": "Explain a matrix product with all dimensions",
+    "deep": "Multiply a 2×3 matrix by a 3×2 matrix and interpret rank",
+    "code": "Check reshape, transpose and broadcasting on small tensors",
+    "drills": [
+      "What does each axis represent?",
+      "When is a matrix non-invertible?",
+      "How is a dot product different from elementwise multiplication?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "D2L: linear algebra",
+        "url": "https://d2l.ai/chapter_preliminaries/linear-algebra.html",
+        "use": "Read and work the tensor examples"
+      },
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "probability",
+    "subject": "ML",
+    "title": "Probability, Bayes and uncertainty",
+    "section": "Probability; Naive Bayes; calibration",
+    "fast": "Distinguish likelihood, prior and posterior",
+    "deep": "Compute a posterior for a rare event and explain the base-rate effect",
+    "code": "Simulate a classifier under two class prevalences",
+    "drills": [
+      "Why is P(A given B) not P(B given A)?",
+      "What assumptions does Naive Bayes make?",
+      "What does a confidence interval cover?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "D2L: probability",
+        "url": "https://d2l.ai/chapter_preliminaries/probability.html",
+        "use": "Read conditional probability and expectations"
+      },
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "regression",
+    "subject": "ML",
+    "title": "Linear and logistic regression",
+    "section": "Linear models; logistic regression",
+    "fast": "Compare prediction, loss and decision boundary",
+    "deep": "Derive squared-error and logistic-loss gradients",
+    "code": "Implement both gradients and check with finite differences",
+    "drills": [
+      "Why use cross-entropy for classification?",
+      "What does a coefficient mean?",
+      "Does logistic regression fit a linear probability function?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "generalization",
+    "subject": "ML",
+    "title": "Generalization, regularization and evaluation",
+    "section": "Model selection; cross-validation; metrics",
+    "fast": "Diagnose underfitting, leakage and misleading accuracy",
+    "deep": "Construct stratified and group-based splits and compare their assumptions",
+    "code": "Build a preprocessing pipeline fitted only on training folds",
+    "drills": [
+      "Why can a high test score be misleading?",
+      "How do L1 and L2 differ?",
+      "When is PR more useful than ROC?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "svm",
+    "subject": "ML",
+    "title": "Margins, kernels and nearest neighbours",
+    "section": "Support vector machines; nearest neighbours",
+    "fast": "Compare local voting with maximum-margin classification",
+    "deep": "Draw a soft-margin objective and reason about C and feature scaling",
+    "code": "Compare linear SVM and kNN on scaled and unscaled data",
+    "drills": [
+      "What is a support vector?",
+      "What does the kernel trick avoid computing?",
+      "How does k change variance?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "ensembles",
+    "subject": "ML",
+    "title": "Trees, bagging and boosting",
+    "section": "Decision trees; ensembles",
+    "fast": "Explain why averaging and sequential correction differ",
+    "deep": "Calculate one impurity reduction and trace one boosting update",
+    "code": "Compare a tree, random forest and gradient boosting on identical folds",
+    "drills": [
+      "Why can trees overfit?",
+      "How does bagging reduce variance?",
+      "Why does boosting need regularization?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "pca-clustering",
+    "subject": "ML",
+    "title": "PCA, clustering and latent structure",
+    "section": "Clustering; PCA; Gaussian mixtures",
+    "fast": "Contrast variance preservation with clustering",
+    "deep": "Compute centered covariance and one principal direction",
+    "code": "Plot PCA and k-means with and without feature scaling",
+    "drills": [
+      "Why center before PCA?",
+      "What objective does k-means minimize?",
+      "How is a mixture posterior different from a hard assignment?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS229",
+        "url": "https://cs229.stanford.edu/",
+        "use": "Course notes / theory"
+      },
+      {
+        "title": "scikit-learn user guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Implementation reference"
+      }
+    ]
+  },
+  {
+    "id": "backprop",
+    "subject": "DL",
+    "title": "Computational graphs and backpropagation",
+    "section": "Forward/backward propagation; autograd",
+    "fast": "Trace local derivatives through a graph",
+    "deep": "Derive gradients for a two-layer scalar network",
+    "code": "Compare manual gradients, autograd and finite differences",
+    "drills": [
+      "Why do gradients add at a branch?",
+      "What is a vector-Jacobian product?",
+      "When do gradients vanish?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "optimization",
+    "subject": "DL",
+    "title": "SGD, momentum, Adam and learning rates",
+    "section": "Optimization algorithms",
+    "fast": "Compare the state tracked by three optimizers",
+    "deep": "Perform two momentum updates by hand",
+    "code": "Plot training loss for several learning rates with a fixed seed",
+    "drills": [
+      "Why use minibatches?",
+      "What does Adam normalize?",
+      "Why can a small training loss coexist with poor generalization?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "regularization",
+    "subject": "DL",
+    "title": "Initialization, dropout and normalization",
+    "section": "Initialization; dropout; batch normalization",
+    "fast": "Explain the training/inference differences",
+    "deep": "Calculate BatchNorm statistics and contrast LayerNorm axes",
+    "code": "Inspect activations and gradients with different initializations",
+    "drills": [
+      "Which axes does each normalization use?",
+      "Why scale dropout at training time?",
+      "Does BatchNorm always fix covariate shift?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "convolution",
+    "subject": "DL",
+    "title": "Convolutions and receptive fields",
+    "section": "Convolutional networks; padding and stride",
+    "fast": "Calculate output shape and parameter count",
+    "deep": "Trace receptive field growth through strided convolutions",
+    "code": "Verify shapes using Conv2d and adaptive pooling",
+    "drills": [
+      "Why are weights shared?",
+      "Does a CNN require a fixed image size?",
+      "Which operation can impose a fixed-size requirement?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "residual",
+    "subject": "DL",
+    "title": "Residual networks and architecture tracing",
+    "section": "Residual networks; modern CNNs",
+    "fast": "Draw a residual block including shape changes",
+    "deep": "Differentiate an identity skip path and a projection skip",
+    "code": "Hook a small ResNet and log stage shapes",
+    "drills": [
+      "Why can a skip help optimization?",
+      "When is a projection required?",
+      "How does global pooling permit variable spatial dimensions?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "sequence",
+    "subject": "DL",
+    "title": "RNNs, LSTMs and sequence learning",
+    "section": "Recurrent networks; LSTM; encoder-decoder",
+    "fast": "Explain hidden state and the LSTM gates",
+    "deep": "Unroll three time steps and identify shared parameters",
+    "code": "Pack variable-length sequences and inspect hidden-state shapes",
+    "drills": [
+      "How does BPTT differ from ordinary backprop?",
+      "Why have a cell state?",
+      "What does teacher forcing change?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "training-loop",
+    "subject": "DL",
+    "title": "PyTorch training and debugging",
+    "section": "Learn the Basics: tensors, autograd and optimization",
+    "fast": "Explain every line in a training step",
+    "deep": "Overfit a tiny batch before scaling up",
+    "code": "Write train/eval loops with zero_grad, backward and optimizer.step",
+    "drills": [
+      "Why call model.eval()?",
+      "Does no_grad set evaluation mode?",
+      "How would you find a silent shape bug?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Free textbook / worked code"
+      },
+      {
+        "title": "PyTorch: Learn the Basics",
+        "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+        "use": "Hands-on tutorial"
+      }
+    ]
+  },
+  {
+    "id": "embeddings",
+    "subject": "NLP",
+    "title": "Word2Vec, CBOW and contextual embeddings",
+    "section": "Word embeddings; pretraining",
+    "fast": "Contrast lookup vectors with context-dependent states",
+    "deep": "Write skip-gram and negative-sampling objectives with dimensions",
+    "code": "Build context-target pairs and train a tiny embedding table",
+    "drills": [
+      "What does CBOW predict?",
+      "Why negative sampling?",
+      "Why can one word have different contextual vectors?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "tokenization",
+    "subject": "NLP",
+    "title": "BPE, subwords and multilingual tokenization",
+    "section": "Tokenizers; subword embedding",
+    "fast": "Trace text to IDs, masks and embeddings",
+    "deep": "Perform BPE merges on a small corpus",
+    "code": "Compare token counts for English and Indic text using a fixed tokenizer",
+    "drills": [
+      "What does vocabulary size trade off?",
+      "Why is a token not necessarily a word?",
+      "How does tokenization affect effective context length?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "attention",
+    "subject": "NLP",
+    "title": "Attention, masks and tensor shapes",
+    "section": "Attention; multi-head attention",
+    "fast": "Explain Q, K and V with one numerical example",
+    "deep": "Calculate scaled scores, masked softmax and weighted values",
+    "code": "Implement a tiny attention layer and compare against a reference",
+    "drills": [
+      "Why divide by square root of head dimension?",
+      "How do causal and padding masks differ?",
+      "Where do multiple heads get their parameters?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "positions",
+    "subject": "NLP",
+    "title": "Positional encodings, RoPE and ALiBi",
+    "section": "Self-attention and positional encoding; position methods",
+    "fast": "Explain why position information is needed",
+    "deep": "Apply a 2D rotary transform and inspect relative dot products",
+    "code": "Test position-dependent outputs and document the model version",
+    "drills": [
+      "What is permutation equivariance?",
+      "Does RoPE change token count?",
+      "Why is length extrapolation not guaranteed?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "RoFormer paper",
+        "url": "https://arxiv.org/abs/2104.09864",
+        "use": "Study the rotary construction"
+      },
+      {
+        "title": "ALiBi paper",
+        "url": "https://arxiv.org/abs/2108.12409",
+        "use": "Compare additive attention bias"
+      },
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "objectives",
+    "subject": "NLP",
+    "title": "BERT, GPT and encoder-decoder objectives",
+    "section": "Language modelling; BERT; Transformer families",
+    "fast": "Compare visible context and prediction targets",
+    "deep": "Write the likelihood factorization and masks for each family",
+    "code": "Inspect labels and shifted logits for a causal language model",
+    "drills": [
+      "Why is BERT not a standard autoregressive decoder?",
+      "What does T5 reconstruct?",
+      "How do pretraining and fine-tuning differ?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "decoding",
+    "subject": "NLP",
+    "title": "Decoding, perplexity and text metrics",
+    "section": "Language models; beam search; evaluation",
+    "fast": "Contrast greedy, beam and sampling strategies",
+    "deep": "Calculate sequence log probability and a CER/WER alignment",
+    "code": "Implement edit distance and compare two decoding settings",
+    "drills": [
+      "Can beam search reduce diversity?",
+      "Why compare perplexity only with compatible tokenization?",
+      "Can WER exceed 100 percent?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "adaptation",
+    "subject": "NLP",
+    "title": "Instruction tuning, LoRA and preference learning",
+    "section": "LLM fine-tuning; adaptation",
+    "fast": "Separate supervised tuning from preference optimization",
+    "deep": "Count LoRA parameters and derive a low-rank weight update",
+    "code": "Inspect trainable parameters and construct a held-out task evaluation",
+    "drills": [
+      "What remains frozen in LoRA?",
+      "Why can preference data encode bias?",
+      "How do you check catastrophic forgetting?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Lectures / notes"
+      },
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Free implementation course"
+      }
+    ]
+  },
+  {
+    "id": "image-processing",
+    "subject": "CV",
+    "title": "Filtering, sampling and image transforms",
+    "section": "Image formation; image processing",
+    "fast": "Explain convolution, resampling and aliasing",
+    "deep": "Convolve a tiny image and examine downsampling with and without filtering",
+    "code": "Compare blur, gradients and resizing on a checkerboard",
+    "drills": [
+      "Why low-pass before downsampling?",
+      "What is convolution versus correlation?",
+      "How does boundary padding alter an image?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "fourier",
+    "subject": "CV",
+    "title": "Fourier transforms and frequency reasoning",
+    "section": "Image processing: Fourier analysis",
+    "fast": "Interpret low and high spatial frequencies",
+    "deep": "Calculate a small DFT and connect convolution to multiplication",
+    "code": "Reconstruct an image after masking frequency bands",
+    "drills": [
+      "What does a Fourier coefficient represent?",
+      "Why does a sharp edge contain high frequencies?",
+      "What information is lost by discarding phase?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "sift",
+    "subject": "CV",
+    "title": "Corners, SIFT and matching",
+    "section": "Feature detection and matching",
+    "fast": "Trace detection, orientation and descriptor construction",
+    "deep": "Explain scale-space extrema and a descriptor histogram",
+    "code": "Match local features and filter correspondences with a ratio test",
+    "drills": [
+      "How does SIFT gain scale robustness?",
+      "Why assign orientation?",
+      "Why is a descriptor different from a detector?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "geometry",
+    "subject": "CV",
+    "title": "Camera geometry, homographies and RANSAC",
+    "section": "Image formation; alignment; structure from motion",
+    "fast": "Distinguish affine, projective and 3D transforms",
+    "deep": "Map points with homogeneous coordinates and count degrees of freedom",
+    "code": "Fit a homography with outliers and compare least squares with RANSAC",
+    "drills": [
+      "When does a homography describe two views?",
+      "Why divide by the homogeneous coordinate?",
+      "How do inlier ratio and sample size affect RANSAC?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "detection",
+    "subject": "CV",
+    "title": "Detection, IoU, NMS and AP",
+    "section": "Object detection",
+    "fast": "Compare one-stage, two-stage and set-prediction detectors",
+    "deep": "Calculate IoU and trace precision-recall under score thresholds",
+    "code": "Implement NMS on five boxes and explain a failure case",
+    "drills": [
+      "Why is IoU not AP?",
+      "What problem does NMS solve?",
+      "How does DETR use matching during training?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "segmentation",
+    "subject": "CV",
+    "title": "Segmentation, U-Net and promptable masks",
+    "section": "Semantic segmentation; recognition",
+    "fast": "Contrast semantic, instance and panoptic outputs",
+    "deep": "Trace U-Net skip connections and calculate Dice on a toy mask",
+    "code": "Compare per-pixel accuracy and IoU on an imbalanced mask",
+    "drills": [
+      "Why combine coarse and fine features?",
+      "Can background dominate accuracy?",
+      "What changes when segmentation is prompted?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "vit-ssl",
+    "subject": "CV",
+    "title": "ViT, contrastive learning and masked image modelling",
+    "section": "Transformers for vision; representation learning",
+    "fast": "Compare CNN and patch-transformer inductive biases",
+    "deep": "Count patches and attention scores at two resolutions",
+    "code": "Inspect positional interpolation and run a frozen-feature linear probe",
+    "drills": [
+      "What stays fixed when resolution changes?",
+      "Why do contrastive methods need an objective preventing collapse?",
+      "What does a linear probe actually measure?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Szeliski: Computer Vision",
+        "url": "https://szeliski.org/Book/",
+        "use": "Author-provided textbook"
+      },
+      {
+        "title": "Stanford CS231n",
+        "url": "https://cs231n.stanford.edu/",
+        "use": "Deep vision course"
+      }
+    ]
+  },
+  {
+    "id": "complexity",
+    "subject": "DSA",
+    "title": "Asymptotic and amortized analysis",
+    "section": "Analysis of algorithms; data structures",
+    "fast": "Distinguish worst-case, expected and amortized cost",
+    "deep": "Count operations in nested loops and dynamic-array growth",
+    "code": "Measure scaling without confusing constants with asymptotics",
+    "drills": [
+      "Is average-case the same as amortized?",
+      "Why is binary search logarithmic?",
+      "What assumptions enter a complexity claim?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "arrays-hashing",
+    "subject": "DSA",
+    "title": "Arrays, hashing and two pointers",
+    "section": "Arrays; hashing",
+    "fast": "Choose between contiguous storage and hash lookup",
+    "deep": "Trace collisions and prove a two-pointer invariant",
+    "code": "Implement a hash-based frequency counter and a two-sum variant",
+    "drills": [
+      "Why is hash lookup not always constant time?",
+      "What does load factor change?",
+      "When do two pointers fail?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "stacks-queues",
+    "subject": "DSA",
+    "title": "Stacks, queues and linked structures",
+    "section": "Data structures",
+    "fast": "Explain FIFO, LIFO and pointer ownership",
+    "deep": "Trace a monotonic stack and account for each push and pop",
+    "code": "Implement balanced-bracket checking and a queue using two stacks",
+    "drills": [
+      "Why is a monotonic stack linear overall?",
+      "When is a linked list useful?",
+      "How would you detect a cycle?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "sorting-search",
+    "subject": "DSA",
+    "title": "Sorting, binary search and invariants",
+    "section": "Sorting; divide and conquer",
+    "fast": "Compare merge sort, quicksort and heapsort",
+    "deep": "Write and prove a binary-search loop invariant",
+    "code": "Implement lower_bound and test empty and duplicate inputs",
+    "drills": [
+      "What makes a sort stable?",
+      "Why can quicksort be quadratic?",
+      "What exactly does your binary-search interval mean?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "trees-heaps",
+    "subject": "DSA",
+    "title": "Trees, heaps and balanced search",
+    "section": "Binary trees; heaps",
+    "fast": "Contrast a heap with a binary search tree",
+    "deep": "Trace traversals, heap insertion and an AVL rotation",
+    "code": "Implement a top-k heap and compare with sorting",
+    "drills": [
+      "Why is a heap not fully sorted?",
+      "What limits BST search cost?",
+      "How do you validate a BST beyond parent-child checks?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "graphs",
+    "subject": "DSA",
+    "title": "Graph traversal and shortest paths",
+    "section": "Graph algorithms; shortest paths",
+    "fast": "Choose BFS, DFS, Dijkstra or Bellman-Ford",
+    "deep": "Run each algorithm on a small counterexample graph",
+    "code": "Implement BFS distances and Dijkstra with stale-entry handling",
+    "drills": [
+      "When does BFS find shortest paths?",
+      "Why can Dijkstra fail with negative edges?",
+      "How do you detect a directed cycle?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "dp-greedy",
+    "subject": "DSA",
+    "title": "Dynamic programming and greedy proofs",
+    "section": "Dynamic programming; greedy algorithms",
+    "fast": "Distinguish an optimal substructure from a greedy choice",
+    "deep": "Derive edit-distance states, transitions and base cases",
+    "code": "Implement edit distance and reconstruct an alignment",
+    "drills": [
+      "Why is memoization not enough without a correct state?",
+      "How do you prove a greedy choice?",
+      "Give a case where greedy fails."
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "MIT 6.006",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+        "use": "Lectures / exercises"
+      },
+      {
+        "title": "Jeff Erickson: Algorithms",
+        "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "use": "Free textbook / proofs"
+      }
+    ]
+  },
+  {
+    "id": "relational",
+    "subject": "DBMS",
+    "title": "Relational model, keys and algebra",
+    "section": "Chapters 2 and 27: relational model and algebra",
+    "fast": "Explain relations, keys and integrity constraints",
+    "deep": "Translate a join and projection into relational algebra",
+    "code": "Create a small schema with primary and foreign keys",
+    "drills": [
+      "How do candidate and primary keys differ?",
+      "What does referential integrity prevent?",
+      "Is a relation mathematically ordered?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "sql",
+    "subject": "DBMS",
+    "title": "SQL joins, grouping and NULL",
+    "section": "Chapters 3–5: SQL",
+    "fast": "Predict inner and outer join outputs",
+    "deep": "Evaluate joins and aggregates on tables containing NULL",
+    "code": "Write joins, HAVING and a window-function ranking query",
+    "drills": [
+      "How does WHERE differ from HAVING?",
+      "Why can a join multiply rows?",
+      "What happens when NULL is compared with equals?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "normalization",
+    "subject": "DBMS",
+    "title": "Functional dependencies and normalization",
+    "section": "Chapters 6–7: design",
+    "fast": "Recognize insertion, update and deletion anomalies",
+    "deep": "Compute attribute closure and test a decomposition for losslessness",
+    "code": "Normalize a small enrolment schema and preserve useful constraints",
+    "drills": [
+      "What is a functional dependency?",
+      "How do 3NF and BCNF differ?",
+      "Can decomposition lose dependency preservation?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "indexes",
+    "subject": "DBMS",
+    "title": "B+ trees, hashing and storage",
+    "section": "Chapters 12–14: storage and indexing",
+    "fast": "Choose an index for equality versus range queries",
+    "deep": "Trace a B+ tree lookup and estimate page reads",
+    "code": "Compare EXPLAIN output with and without a suitable index",
+    "drills": [
+      "Why do databases favor high fan-out?",
+      "Why can an index hurt writes?",
+      "Why might an optimizer ignore an index?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "query-planning",
+    "subject": "DBMS",
+    "title": "Query processing and optimization",
+    "section": "Chapters 15–16: query processing",
+    "fast": "Explain logical versus physical query plans",
+    "deep": "Compare nested-loop, hash and sort-merge join costs",
+    "code": "Inspect cardinality estimates and actual row counts",
+    "drills": [
+      "Why does join order matter?",
+      "How can bad estimates hurt a plan?",
+      "What changes when a hash table does not fit memory?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "transactions",
+    "subject": "DBMS",
+    "title": "Transactions, isolation and concurrency",
+    "section": "Chapters 17–18: transactions",
+    "fast": "Explain ACID with a concrete anomaly",
+    "deep": "Construct a precedence graph and compare isolation levels",
+    "code": "Reproduce a lost update with two local database sessions",
+    "drills": [
+      "Is serializable the same as literally serial?",
+      "How do locking and MVCC differ?",
+      "Can snapshot isolation allow write skew?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "recovery",
+    "subject": "DBMS",
+    "title": "Recovery, logs and distributed transactions",
+    "section": "Chapters 19 and 23: recovery",
+    "fast": "Explain write-ahead logging and commit boundaries",
+    "deep": "Trace a crash before and after commit and decide what to redo",
+    "code": "Document a recovery experiment on a disposable database",
+    "drills": [
+      "Why must a log record reach durable storage first?",
+      "How do undo and redo differ?",
+      "Why can two-phase commit block?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Database System Concepts: slides",
+        "url": "https://www.db-book.com/slides-dir/index.html",
+        "use": "Free chapter slides"
+      },
+      {
+        "title": "PostgreSQL tutorial",
+        "url": "https://www.postgresql.org/docs/current/tutorial.html",
+        "use": "SQL practice; use documentation search for internals"
+      }
+    ]
+  },
+  {
+    "id": "layers",
+    "subject": "CN",
+    "title": "Layers, packet flow and delay",
+    "section": "Chapter 1: introduction",
+    "fast": "Trace an application message through the Internet stack",
+    "deep": "Compute transmission, propagation and serialization delays",
+    "code": "Draw a packet journey with addresses at each hop",
+    "drills": [
+      "Why are layers useful?",
+      "How do throughput and latency differ?",
+      "Which addresses change at a router?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "application",
+    "subject": "CN",
+    "title": "HTTP, DNS and application protocols",
+    "section": "Chapter 2: application layer",
+    "fast": "Explain what happens after entering a URL",
+    "deep": "Trace recursive and iterative DNS with caching",
+    "code": "Inspect DNS and HTTP headers using browser developer tools",
+    "drills": [
+      "Why does DNS cache?",
+      "How do connection reuse and caching affect latency?",
+      "What does HTTPS add to HTTP?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "subject": "CN",
+    "title": "UDP, TCP and reliable delivery",
+    "section": "Chapter 3: transport layer",
+    "fast": "Explain ports, sequence numbers and acknowledgements",
+    "deep": "Trace loss, retransmission and duplicate ACKs",
+    "code": "Inspect a TCP trace or simulate stop-and-wait delivery",
+    "drills": [
+      "Why is TCP a byte stream?",
+      "How do reliability and ordering differ?",
+      "When is UDP useful?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "congestion",
+    "subject": "CN",
+    "title": "Flow control, congestion and RTT",
+    "section": "Chapter 3: congestion control",
+    "fast": "Distinguish receiver capacity from network capacity",
+    "deep": "Trace a congestion window and estimate timeout from RTT samples",
+    "code": "Plot throughput under a bandwidth-delay-product model",
+    "drills": [
+      "Why is flow control not congestion control?",
+      "What causes a retransmission timeout?",
+      "Can adding buffers increase latency?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "subnetting",
+    "subject": "CN",
+    "title": "IP addressing, CIDR and subnetting",
+    "section": "Chapter 4: subnet addressing",
+    "fast": "Find network boundaries and longest-prefix matches",
+    "deep": "Split a /24 into four /26 blocks; list address ranges",
+    "code": "Use Python ipaddress to check manually calculated networks",
+    "drills": [
+      "What does a prefix length mean?",
+      "Why does longest-prefix matching win?",
+      "Why do /31 links differ from the usual host-count rule?"
+    ],
+    "core": true,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "routing",
+    "subject": "CN",
+    "title": "Routing, forwarding and NAT",
+    "section": "Chapters 4–5: network layer",
+    "fast": "Separate control-plane routes from packet forwarding",
+    "deep": "Run distance-vector and link-state updates on a small network",
+    "code": "Simulate route updates after a link failure",
+    "drills": [
+      "How does NAT alter addressing?",
+      "Why can distance vector count to infinity?",
+      "What differs between interdomain and intradomain routing?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "link-security",
+    "subject": "CN",
+    "title": "Ethernet, ARP and network security basics",
+    "section": "Chapters 6 and 8: link layer and security",
+    "fast": "Trace local delivery and distinguish encryption from authentication",
+    "deep": "Follow ARP, switch learning and encapsulation for one packet",
+    "code": "Annotate a safe local capture without collecting others’ traffic",
+    "drills": [
+      "How does a switch learn?",
+      "Why is ARP needed with IP?",
+      "What does TLS authenticate and what metadata remains visible?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Kurose–Ross online lectures",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
+        "use": "Free lectures"
+      },
+      {
+        "title": "Kurose–Ross interactive problems",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
+        "use": "Worked practice; security not covered by every exercise"
+      }
+    ]
+  },
+  {
+    "id": "vlm-inputs",
+    "subject": "Advanced",
+    "title": "VLM input processing and variable resolution",
+    "section": "Qwen2-VL: processor, resolution and visual tokens",
+    "fast": "Separate image dimensions, patch size, width and token count",
+    "deep": "For a specified processor, calculate resized grid, merged tokens and batch masks",
+    "code": "Log processor output shapes for two aspect ratios; pin the checkpoint and library version",
+    "drills": [
+      "Does variable token count imply variable embedding width?",
+      "Where are resize, merge and padding applied?",
+      "Why should you not generalize one Qwen version to every VLM?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Qwen2-VL documentation",
+        "url": "https://huggingface.co/docs/transformers/en/model_doc/qwen2_vl",
+        "use": "Processor settings and image token budgets"
+      },
+      {
+        "title": "Qwen2-VL technical report",
+        "url": "https://arxiv.org/abs/2409.12191",
+        "use": "Architecture evidence; a versioned example, not a latest-model claim"
+      }
+    ]
+  },
+  {
+    "id": "rag",
+    "subject": "Advanced",
+    "title": "Retrieval-augmented generation and grounding",
+    "section": "Retrieval; agents and tools",
+    "fast": "Distinguish retrieval failure from answer-generation failure",
+    "deep": "Define recall@k and an answer-support evaluation",
+    "code": "Build a tiny retrieval baseline and inspect missed evidence",
+    "drills": [
+      "Why can high retrieval recall coexist with a wrong answer?",
+      "How does chunk size change retrieval?",
+      "How do you test whether a citation supports a claim?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "RAG paper",
+        "url": "https://arxiv.org/abs/2005.11401",
+        "use": "Original retrieval/generation formulation"
+      },
+      {
+        "title": "Hugging Face agents course",
+        "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+        "use": "Connect retrieval with tool-based systems"
+      }
+    ]
+  },
+  {
+    "id": "agents",
+    "subject": "Advanced",
+    "title": "Agents, tools, state and workflows",
+    "section": "Agents course; building effective agents",
+    "fast": "Trace a tool call and its returned observation",
+    "deep": "Draw a bounded loop with state, retry budget and stopping rules",
+    "code": "Implement a deterministic mock tool loop before attaching any model",
+    "drills": [
+      "When is a fixed workflow enough?",
+      "Where does state persist?",
+      "How do you evaluate an agent beyond its final sentence?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Hugging Face agents course",
+        "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+        "use": "Tools, observations and agent loop"
+      },
+      {
+        "title": "Anthropic: building effective agents",
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "use": "Compare workflow patterns and agent loops"
+      }
+    ]
+  },
+  {
+    "id": "llm-systems",
+    "subject": "Advanced",
+    "title": "KV cache, GQA, MoE and efficient inference",
+    "section": "Transformer internals; inference",
+    "fast": "Separate prefill from decode and arithmetic from memory traffic",
+    "deep": "Calculate KV cache size for a stated number of layers and KV heads",
+    "code": "Inspect configuration fields and estimate memory before a run",
+    "drills": [
+      "How does GQA change cache size?",
+      "Why does FlashAttention remain exact attention?",
+      "Why are active and total MoE parameters different?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "Hugging Face LLM course",
+        "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "use": "Implementation foundations"
+      },
+      {
+        "title": "Dive into Deep Learning",
+        "url": "https://d2l.ai/",
+        "use": "Mathematical foundations"
+      }
+    ]
+  },
+  {
+    "id": "generative",
+    "subject": "Advanced",
+    "title": "VAE, GAN and diffusion objectives",
+    "section": "Generative modelling",
+    "fast": "Compare latent-variable, adversarial and denoising training",
+    "deep": "Write an ELBO and explain each term; trace one noising step",
+    "code": "Simulate forward diffusion on a tiny array",
+    "drills": [
+      "Why is the ELBO a lower bound?",
+      "What does the discriminator learn?",
+      "How do training noise prediction and iterative sampling relate?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "D2L: generative modelling",
+        "url": "https://d2l.ai/",
+        "use": "GAN chapters"
+      },
+      {
+        "title": "DDPM paper",
+        "url": "https://arxiv.org/abs/2006.11239",
+        "use": "Denoising objective and sampling algorithm"
+      }
+    ]
+  },
+  {
+    "id": "ocr-research",
+    "subject": "Advanced",
+    "title": "OCR, Indic text and error analysis",
+    "section": "Text evaluation; research design",
+    "fast": "Separate recognition, correction and normalization errors",
+    "deep": "Calculate CER/WER and stratify errors by script and document source",
+    "code": "Build a small error taxonomy and compare a simple correction baseline",
+    "drills": [
+      "How can normalization change your metric?",
+      "What would prove a correction method hallucinates?",
+      "What split avoids document-level leakage?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "TrOCR paper",
+        "url": "https://arxiv.org/abs/2109.10282",
+        "use": "Recognition baseline and training setup"
+      },
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Language modelling and evaluation background"
+      }
+    ]
+  },
+  {
+    "id": "research-defence",
+    "subject": "Advanced",
+    "title": "Research defence, teaching and experimental design",
+    "section": "Research synthesis; evaluation",
+    "fast": "Give a two-minute claim, evidence and limitation narrative",
+    "deep": "Design an ablation with a falsifiable hypothesis and matched budget",
+    "code": "Reproduce one small baseline and log seeds, versions and uncertainty",
+    "drills": [
+      "What is your contribution beyond a stronger baseline?",
+      "What observation would falsify your explanation?",
+      "How would you teach this to a second-year student?"
+    ],
+    "core": false,
+    "resources": [
+      {
+        "title": "scikit-learn evaluation guide",
+        "url": "https://scikit-learn.org/stable/user_guide.html",
+        "use": "Model selection, metrics and leakage checks"
+      },
+      {
+        "title": "Stanford CS224N",
+        "url": "https://web.stanford.edu/class/cs224n/",
+        "use": "Project and research communication resources"
+      }
+    ]
+  }
+]
