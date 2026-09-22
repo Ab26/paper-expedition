@@ -4,7 +4,7 @@ A unified, free study hub for faculty/postdoc preparation and continuing researc
 
 ## Topic-first preparation
 
-Topics is the default landing view. Browse 56 topics across ML, DL, NLP, CV, DSA, DBMS, CN and advanced research without selecting a date. Every topic has fast/deep tasks, multiple primary-resource links, coding practice, three spoken prompts, notes and editable core-gap/fragile flags. Original deep and fast sessions remain browsable separately.
+Topics is the default landing view. Browse 56 topics across ML, DL, NLP, CV, DSA, DBMS, CN and advanced research without selecting a date. Every topic has fast/deep tasks, at least five resource links, including video options, coding practice, three spoken prompts, notes and editable core-gap/fragile flags. Original deep and fast sessions remain browsable separately.
 
 Start a new review to clear its attempt checkboxes. After attempting every prompt aloud, rate Shaky or Solid. Successful due reviews use gaps of 1/3/7/21 days (normal) or 1/2/5/14/30 days (fragile), repeating the final interval. Shaky resets to tomorrow. Early successful practice does not advance the stage or defer the due date. Review dates are advisory local calendar days; breaks do not block access. No audio recording or automatic reasoning assessment is performed.
 
@@ -67,3 +67,11 @@ User-entered notes, database contents, credentials, dependencies and runtime sta
 ## Validation
 
 Build and type checking, calendar exclusions and counts, paper completion date, storage/backup round trips, malformed-data rejection and quota failures are checked. The published GitHub Pages site was visually checked: the daily dashboard and 98-paper catalog render, a note persists after reload, and the dot-product exercise correctly checks an answer and reveals its worked solution.
+
+## Topic resource library
+
+56 topics contain 284 resource entries (60 video entries), with at least five distinct URLs per topic. Video, Reading, Practice and Code filters are available inside each topic. Cards distinguish direct lessons, chapters and PDFs from course indexes and give topic-specific section guidance. These are alternatives, not additional required assignments. Instructor/publisher entry pages were checked on 22 September 2026; individual video playback was not checked.
+
+The Resource collections tab links Developer-Y/cs-video-courses, dair-ai/ML-YouTube-Courses, prakhar1989/awesome-courses and ossu/computer-science, with original descriptions of how to use them. They informed resource discovery and navigation, rather than being copied wholesale.
+
+Edit `hub/resource_catalog.py` for curated additions and `hub/resource-collections.json` for discovery directories. Run `python3 hub/create-topics.py` to regenerate the catalog. Catalog tests enforce distinct URLs, format metadata and a video option for every topic. No progress storage keys or review records changed in this update.

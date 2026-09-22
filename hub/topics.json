@@ -17,17 +17,44 @@
       {
         "title": "D2L: linear algebra",
         "url": "https://d2l.ai/chapter_preliminaries/linear-algebra.html",
-        "use": "Read and work the tensor examples"
+        "use": "Read and work the tensor examples",
+        "type": "Reading",
+        "scope": "Direct chapter"
       },
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Matrix algebra, tensors and matrix multiplication; track shapes by hand.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "3Blue1Brown · Essence of Linear Algebra",
+        "url": "https://www.3blue1brown.com/?topic=linear-algebra",
+        "use": "Start with span, linear transformations and matrix multiplication.",
+        "type": "Video",
+        "scope": "Video series index"
+      },
+      {
+        "title": "D2L · mathematical foundations",
+        "url": "https://d2l.ai/",
+        "use": "Preliminaries → linear algebra exercises; compare dot products, matrix products and broadcasting.",
+        "type": "Practice",
+        "scope": "Textbook / exercise index"
       }
     ]
   },
@@ -49,17 +76,44 @@
       {
         "title": "D2L: probability",
         "url": "https://d2l.ai/chapter_preliminaries/probability.html",
-        "use": "Read conditional probability and expectations"
+        "use": "Read conditional probability and expectations",
+        "type": "Reading",
+        "scope": "Direct chapter"
       },
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Conditional probability, Bayes theorem, expectation and distributions.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Probability calibration: inspect reliability curves and predicted probabilities.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Google · Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "use": "Classification: interpret predicted probabilities and thresholds.",
+        "type": "Practice",
+        "scope": "Course / exercise index"
       }
     ]
   },
@@ -81,12 +135,37 @@
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Linear regression, logistic regression and maximum likelihood.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Linear Models: compare linear and logistic regression examples.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Google · Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "use": "Linear Regression and Logistic Regression modules; work the embedded exercises.",
+        "type": "Practice",
+        "scope": "Course / exercise index"
       }
     ]
   },
@@ -108,12 +187,37 @@
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Bias and variance, cross-validation and regularization.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Model Selection: learning curves and cross-validation examples.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Google · Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "use": "Overfitting and Generalization: training/validation splits and model capacity.",
+        "type": "Practice",
+        "scope": "Course / exercise index"
       }
     ]
   },
@@ -135,12 +239,37 @@
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Support Vector Machines: main idea, polynomial kernel and RBF kernel.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Support Vector Machines: compare kernels and decision boundaries.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Introduction to Statistical Learning",
+        "url": "https://www.statlearning.com/",
+        "use": "Support Vector Machines chapter and Python lab: margins, kernels and support vectors.",
+        "type": "Reading",
+        "scope": "Free textbook / lab index"
       }
     ]
   },
@@ -162,12 +291,37 @@
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Decision trees, random forests, gradient boosting and XGBoost.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Ensemble Methods: compare forests and boosting on one dataset.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Introduction to Statistical Learning",
+        "url": "https://www.statlearning.com/",
+        "use": "Tree-Based Methods chapter and Python lab: bagging, random forests and boosting.",
+        "type": "Reading",
+        "scope": "Free textbook / lab index"
       }
     ]
   },
@@ -189,12 +343,37 @@
       {
         "title": "Stanford CS229",
         "url": "https://cs229.stanford.edu/",
-        "use": "Course notes / theory"
+        "use": "Course notes / theory",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "scikit-learn user guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Implementation reference"
+        "use": "Implementation reference",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · visual explanations",
+        "url": "https://statquest.org/video_index.html",
+        "use": "PCA step by step, k-means and hierarchical clustering.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "scikit-learn · runnable examples",
+        "url": "https://scikit-learn.org/stable/auto_examples/index.html",
+        "use": "Decomposition and Clustering: PCA projection and cluster comparison examples.",
+        "type": "Practice",
+        "scope": "Example index"
+      },
+      {
+        "title": "Introduction to Statistical Learning",
+        "url": "https://www.statlearning.com/",
+        "use": "Unsupervised Learning chapter and Python lab: PCA and clustering.",
+        "type": "Reading",
+        "scope": "Free textbook / lab index"
       }
     ]
   },
@@ -216,12 +395,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build micrograd: scalar computational graphs and reverse-mode autodiff.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "CS231n · backpropagation",
+        "url": "https://cs231n.github.io/optimization-2/",
+        "use": "Trace the computational circuits and chain-rule examples.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "CS231n · assignments",
+        "url": "https://cs231n.github.io/",
+        "use": "Select backprop, fully connected networks, normalization or dropout exercises. Do a small component, not the whole course.",
+        "type": "Practice",
+        "scope": "Assignment index"
       }
     ]
   },
@@ -243,12 +447,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · neural networks",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Backpropagation and gradient descent; pause to calculate one update.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "CS231n · learning and evaluation",
+        "url": "https://cs231n.github.io/neural-networks-3/",
+        "use": "Momentum, adaptive updates, gradient checks and learning-rate diagnostics.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "CS231n · assignments",
+        "url": "https://cs231n.github.io/",
+        "use": "Select backprop, fully connected networks, normalization or dropout exercises. Do a small component, not the whole course.",
+        "type": "Practice",
+        "scope": "Assignment index"
       }
     ]
   },
@@ -270,12 +499,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Neural networks: training versus evaluation, loss and learning curves.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "CS231n · data and loss",
+        "url": "https://cs231n.github.io/neural-networks-2/",
+        "use": "Weight initialization, batch normalization, dropout and regularization.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "CS231n · assignments",
+        "url": "https://cs231n.github.io/",
+        "use": "Select backprop, fully connected networks, normalization or dropout exercises. Do a small component, not the whole course.",
+        "type": "Practice",
+        "scope": "Assignment index"
       }
     ]
   },
@@ -297,12 +551,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · neural networks",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Convolutional Neural Networks: filters, stride and pooling.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "CS231n · convolutional networks",
+        "url": "https://cs231n.github.io/convolutional-networks/",
+        "use": "Calculate output sizes and parameter counts before checking the examples.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "Torchvision · model implementations",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "Open a CNN/ResNet model and its source; inspect blocks and weight-specific preprocessing.",
+        "type": "Code",
+        "scope": "Model index"
       }
     ]
   },
@@ -324,12 +603,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · CNN lecture archive",
+        "url": "https://fullstackdeeplearning.com/course/2022/",
+        "use": "CNN lecture: architecture progression and residual networks.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "D2L · ResNet and ResNeXt",
+        "url": "https://d2l.ai/chapter_convolutional-modern/resnet.html",
+        "use": "Trace identity and projection shortcuts and inspect their tensor shapes.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "Torchvision · model implementations",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "Open a CNN/ResNet model and its source; inspect blocks and weight-specific preprocessing.",
+        "type": "Code",
+        "scope": "Model index"
       }
     ]
   },
@@ -351,12 +655,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · neural networks",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Recurrent Neural Networks and Long Short-Term Memory.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "D2L · recurrent neural networks",
+        "url": "https://d2l.ai/chapter_recurrent-neural-networks/index.html",
+        "use": "Hidden state, language modelling and backpropagation through time.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "PyTorch · sequence models",
+        "url": "https://docs.pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html",
+        "use": "Run the LSTM example and annotate sequence, batch and feature axes.",
+        "type": "Practice",
+        "scope": "Direct tutorial"
       }
     ]
   },
@@ -378,12 +707,37 @@
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Free textbook / worked code"
+        "use": "Free textbook / worked code",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PyTorch: Learn the Basics",
         "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
-        "use": "Hands-on tutorial"
+        "use": "Hands-on tutorial",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · neural networks",
+        "url": "https://statquest.org/video_index.html",
+        "use": "Introduction to PyTorch: tensors, gradients, model, loss and optimizer.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "CS231n · learning diagnostics",
+        "url": "https://cs231n.github.io/neural-networks-3/",
+        "use": "Gradient checks, small-batch overfitting and loss-curve diagnosis.",
+        "type": "Reading",
+        "scope": "Chapter / notes"
+      },
+      {
+        "title": "CS231n · assignments",
+        "url": "https://cs231n.github.io/",
+        "use": "Select backprop, fully connected networks, normalization or dropout exercises. Do a small component, not the whole course.",
+        "type": "Practice",
+        "scope": "Assignment index"
       }
     ]
   },
@@ -405,12 +759,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "makemore: inspect embedding lookup and how gradients update a row.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · NLP pretraining",
+        "url": "https://d2l.ai/chapter_natural-language-processing-pretraining/index.html",
+        "use": "Word2Vec, negative sampling, GloVe and subword embeddings.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Stanford CS336 · language modelling from scratch",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Lecture 1 and Assignment 1: embeddings inside the language model.",
+        "type": "Practice",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -432,12 +811,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build the GPT tokenizer: byte-level encoding, merges and special tokens.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · attention and transformers",
+        "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html",
+        "use": "Transformer input representations: connect token IDs to embeddings; use Karpathy for tokenizer mechanics.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Stanford CS336 · language modelling from scratch",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Lecture 1 and Assignment 1: implement a tokenizer and examine segmentation.",
+        "type": "Practice",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -459,12 +863,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build GPT: trace query/key/value shapes, masking and weighted sums.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · attention and transformers",
+        "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html",
+        "use": "Work the attention scoring and multi-head attention code.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Stanford CS336 · language modelling from scratch",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Architecture lecture and Assignment 1: implement a transformer block.",
+        "type": "Practice",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -486,22 +915,51 @@
       {
         "title": "RoFormer paper",
         "url": "https://arxiv.org/abs/2104.09864",
-        "use": "Study the rotary construction"
+        "use": "Study the rotary construction",
+        "type": "Reading",
+        "scope": "Paper"
       },
       {
         "title": "ALiBi paper",
         "url": "https://arxiv.org/abs/2108.12409",
-        "use": "Compare additive attention bias"
+        "use": "Compare additive attention bias",
+        "type": "Reading",
+        "scope": "Paper"
       },
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build GPT: first understand learned positions; contrast with the RoPE and ALiBi papers below.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · attention and transformers",
+        "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html",
+        "use": "Self-attention and positional encoding: calculate a sinusoidal example.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Stanford CS336 · language modelling from scratch",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Architecture lecture: rotary position embeddings; follow the associated implementation assignment.",
+        "type": "Practice",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -523,12 +981,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build GPT: trace next-token targets and autoregressive cross-entropy.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · NLP pretraining",
+        "url": "https://d2l.ai/chapter_natural-language-processing-pretraining/index.html",
+        "use": "Compare Word2Vec and BERT training objectives.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Stanford CS336 · language modelling from scratch",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Architecture and data lectures: inspect next-token training and dataset construction.",
+        "type": "Practice",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -550,12 +1033,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Karpathy · Zero to Hero",
+        "url": "https://karpathy.ai/zero-to-hero.html",
+        "use": "Build GPT: inspect the generation loop and categorical sampling.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · attention and transformers",
+        "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html",
+        "use": "Transformer encoder-decoder example: contrast training with autoregressive prediction.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Transformers · generation strategies",
+        "url": "https://huggingface.co/docs/transformers/en/generation_strategies",
+        "use": "Compare greedy, beam and sampling configurations on the same prompt.",
+        "type": "Practice",
+        "scope": "Direct guide"
       }
     ]
   },
@@ -577,12 +1085,37 @@
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Lectures / notes"
+        "use": "Lectures / notes",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Free implementation course"
+        "use": "Free implementation course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "StatQuest · RLHF",
+        "url": "https://statquest.org/video_index.html",
+        "use": "RLHF explanation: preference feedback; compare with parameter-efficient fine-tuning.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "D2L · NLP pretraining",
+        "url": "https://d2l.ai/chapter_natural-language-processing-pretraining/index.html",
+        "use": "Fine-tune BERT for sequence classification; contrast with LoRA.",
+        "type": "Reading",
+        "scope": "Chapter index"
+      },
+      {
+        "title": "Hugging Face · PEFT",
+        "url": "https://huggingface.co/docs/peft/index",
+        "use": "Choose LoRA; inspect adapter parameters and freezing of the base model.",
+        "type": "Code",
+        "scope": "Documentation index"
       }
     ]
   },
@@ -604,12 +1137,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Nayar · First Principles of Computer Vision",
+        "url": "https://fpcv.cs.columbia.edu/",
+        "use": "Image Processing I: linear shift-invariant systems and convolution.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "OpenCV · Python tutorials",
+        "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+        "use": "Image Processing: smoothing, filtering and thresholding tutorials.",
+        "type": "Practice",
+        "scope": "Tutorial index"
+      },
+      {
+        "title": "Nayar · written monographs",
+        "url": "https://fpcv.cs.columbia.edu/Monographs",
+        "use": "Image Processing I: kernels and convolution derivations.",
+        "type": "Reading",
+        "scope": "Monograph index"
       }
     ]
   },
@@ -631,12 +1189,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Nayar · First Principles of Computer Vision",
+        "url": "https://fpcv.cs.columbia.edu/",
+        "use": "Image Processing II: Fourier transform, convolution theorem and frequency filtering.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "OpenCV · Python tutorials",
+        "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+        "use": "Image Processing → Fourier Transform: inspect magnitude and filtered reconstructions.",
+        "type": "Practice",
+        "scope": "Tutorial index"
+      },
+      {
+        "title": "Nayar · written monographs",
+        "url": "https://fpcv.cs.columbia.edu/Monographs",
+        "use": "Image Processing II: Fourier analysis and filtering derivations.",
+        "type": "Reading",
+        "scope": "Monograph index"
       }
     ]
   },
@@ -658,12 +1241,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Nayar · First Principles of Computer Vision",
+        "url": "https://fpcv.cs.columbia.edu/",
+        "use": "SIFT Detector and SIFT Descriptor sections: scale-space, orientation and histograms.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "OpenCV · Python tutorials",
+        "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+        "use": "Feature Detection and Description → SIFT and Feature Matching.",
+        "type": "Practice",
+        "scope": "Tutorial index"
+      },
+      {
+        "title": "Nayar · written monographs",
+        "url": "https://fpcv.cs.columbia.edu/Monographs",
+        "use": "SIFT Detector: scale-space construction and extrema.",
+        "type": "Reading",
+        "scope": "Monograph index"
       }
     ]
   },
@@ -685,12 +1293,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Nayar · First Principles of Computer Vision",
+        "url": "https://fpcv.cs.columbia.edu/",
+        "use": "Image Stitching: computing a homography and RANSAC; Image Formation for camera models.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "OpenCV · Python tutorials",
+        "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+        "use": "Camera Calibration and 3D Reconstruction; Feature Matching + Homography.",
+        "type": "Practice",
+        "scope": "Tutorial index"
+      },
+      {
+        "title": "Nayar · written monographs",
+        "url": "https://fpcv.cs.columbia.edu/Monographs",
+        "use": "Image Formation, Image Stitching and Camera Calibration: coordinate transformations and geometry.",
+        "type": "Reading",
+        "scope": "Monograph index"
       }
     ]
   },
@@ -712,12 +1345,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · vision foundations",
+        "url": "https://fullstackdeeplearning.com/course/2022/",
+        "use": "FSDL 2021 Computer Vision lecture: object detection and recognition tasks.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "Torchvision · vision model implementations",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "Object Detection: inspect Faster R-CNN and RetinaNet inputs, outputs and preprocessing.",
+        "type": "Code",
+        "scope": "Model index"
+      },
+      {
+        "title": "D2L · vision models",
+        "url": "https://d2l.ai/",
+        "use": "Computer Vision → bounding boxes, anchors, multiscale detection and SSD.",
+        "type": "Reading",
+        "scope": "Textbook index"
       }
     ]
   },
@@ -739,12 +1397,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Nayar · First Principles of Computer Vision",
+        "url": "https://fpcv.cs.columbia.edu/",
+        "use": "Image Segmentation: clustering and graph-based methods; use the textbook for modern neural segmentation.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "Torchvision · vision model implementations",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "Semantic and instance segmentation: inspect output masks and class dimensions.",
+        "type": "Code",
+        "scope": "Model index"
+      },
+      {
+        "title": "D2L · vision models",
+        "url": "https://d2l.ai/",
+        "use": "Computer Vision → semantic segmentation, transposed convolution and fully convolutional networks.",
+        "type": "Reading",
+        "scope": "Textbook index"
       }
     ]
   },
@@ -766,12 +1449,37 @@
       {
         "title": "Szeliski: Computer Vision",
         "url": "https://szeliski.org/Book/",
-        "use": "Author-provided textbook"
+        "use": "Author-provided textbook",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS231n",
         "url": "https://cs231n.stanford.edu/",
-        "use": "Deep vision course"
+        "use": "Deep vision course",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · vision foundations",
+        "url": "https://fullstackdeeplearning.com/course/2022/lecture-7-foundation-models/",
+        "use": "Foundation Models: CLIP and representation learning; connect to the ViT and SSL exercises.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "Torchvision · vision model implementations",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "VisionTransformer: inspect patch projection and positional interpolation in the source.",
+        "type": "Code",
+        "scope": "Model index"
+      },
+      {
+        "title": "D2L · vision models",
+        "url": "https://d2l.ai/",
+        "use": "Attention Mechanisms and Transformers → Vision Transformer; then compare with CS231n SSL assignments.",
+        "type": "Reading",
+        "scope": "Textbook index"
       }
     ]
   },
@@ -793,12 +1501,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/",
+        "use": "Lecture 1: specify the problem, algorithm and cost model.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 1: specify the problem, algorithm and cost model. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching analysis of algorithms; data structures. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -820,12 +1553,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/",
+        "use": "Lecture 4: hashing assumptions, collisions and expected lookup cost.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 4: hashing assumptions, collisions and expected lookup cost. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching arrays; hashing. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -847,12 +1605,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/",
+        "use": "Lecture 2: sequence interfaces and representation costs; use linked structures to reason about stacks and queues.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 2: sequence interfaces and representation costs; use linked structures to reason about stacks and queues. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching data structures. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -874,12 +1657,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/",
+        "use": "Lectures 3 and 5: sorting and linear sorting; compare assumptions and invariants.",
+        "type": "Video",
+        "scope": "Video index"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lectures 3 and 5: sorting and linear sorting; compare assumptions and invariants. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching sorting; divide and conquer. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -901,12 +1709,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-6-binary-trees-part-1/",
+        "use": "Lecture 6: binary trees; continue with Lecture 8 for heaps.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 6: binary trees; continue with Lecture 8 for heaps. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching binary trees; heaps. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -928,12 +1761,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-9-breadth-first-search/",
+        "use": "Lecture 9: BFS; follow with DFS and shortest-path lectures for weighted graphs.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 9: BFS; follow with DFS and shortest-path lectures for weighted graphs. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching graph algorithms; shortest paths. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -955,12 +1813,37 @@
       {
         "title": "MIT 6.006",
         "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
-        "use": "Lectures / exercises"
+        "use": "Lectures / exercises",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Jeff Erickson: Algorithms",
         "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
-        "use": "Free textbook / proofs"
+        "use": "Free textbook / proofs",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "MIT 6.006 · selected lecture",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-15-dynamic-programming-part-1-srtbot-fib-dags-bowling/",
+        "use": "Lecture 15: DP state, recurrence, topological order and reconstruction; use Erickson for greedy proofs.",
+        "type": "Video",
+        "scope": "Direct lesson"
+      },
+      {
+        "title": "MIT 6.006 · lecture notes",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "use": "Lecture 15: DP state, recurrence, topological order and reconstruction; use Erickson for greedy proofs. Read the corresponding notes after attempting the derivation.",
+        "type": "Reading",
+        "scope": "Notes index"
+      },
+      {
+        "title": "MIT 6.006 · practice problems",
+        "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/",
+        "use": "Select the problem set matching dynamic programming; greedy algorithms. Attempt first, then inspect solutions.",
+        "type": "Practice",
+        "scope": "Problem index"
       }
     ]
   },
@@ -982,12 +1865,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 01 Relational Model & Algebra. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 01 Relational Model & Algebra",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/01-relationalmodel.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on relational model, keys and algebra. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1009,12 +1917,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 02 Modern SQL. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 02 Modern SQL",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/02-modernsql.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on sql joins, grouping and null. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1036,12 +1969,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "NPTEL · Database Design, IIT Madras",
+        "url": "https://nptel.ac.in/courses/106106093",
+        "use": "Find functional dependencies, normalization and decomposition in the lecture list.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "NPTEL · DBMS, IIT Kharagpur",
+        "url": "https://nptel.ac.in/courses/106105175",
+        "use": "Alternative instructor course: focus on relational design, functional dependencies and normal forms.",
+        "type": "Video",
+        "scope": "Video course index"
+      },
+      {
+        "title": "Database System Concepts · companion material",
+        "url": "https://www.db-book.com/",
+        "use": "Choose relational database design exercises/solutions from the student companion material; compute closures before checking.",
+        "type": "Practice",
+        "scope": "Book companion index"
       }
     ]
   },
@@ -1063,12 +2021,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 08 Indexes & Filters I. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 08 Indexes & Filters I",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/08-indexes1.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on b+ trees, hashing and storage. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1090,12 +2073,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 15 Query Planning & Optimization. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 15 Query Planning & Optimization",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/15-optimization.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on query processing and optimization. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1117,12 +2125,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 16 Concurrency Control Theory. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 16 Concurrency Control Theory",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/16-concurrencycontrol.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on transactions, isolation and concurrency. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1144,12 +2177,37 @@
       {
         "title": "Database System Concepts: slides",
         "url": "https://www.db-book.com/slides-dir/index.html",
-        "use": "Free chapter slides"
+        "use": "Free chapter slides",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "PostgreSQL tutorial",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "use": "SQL practice; use documentation search for internals"
+        "use": "SQL practice; use documentation search for internals",
+        "type": "Practice",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "CMU 15-445 · lecture videos",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/schedule.html",
+        "use": "Fall 2024 lecture 21 Database Crash Recovery. Use the Video link on that row.",
+        "type": "Video",
+        "scope": "Video / syllabus index"
+      },
+      {
+        "title": "CMU · 21 Database Crash Recovery",
+        "url": "https://15445.courses.cs.cmu.edu/fall2024/notes/21-recovery.pdf",
+        "use": "Read the lecture handout; work one example using your own tiny tables or transaction history.",
+        "type": "Reading",
+        "scope": "Direct PDF notes"
+      },
+      {
+        "title": "Berkeley CS186 · exam practice",
+        "url": "https://cs186berkeley.net/resources/",
+        "use": "Choose database exam questions on recovery, logs and distributed transactions. Use solutions only after an independent attempt.",
+        "type": "Practice",
+        "scope": "Exam archive"
       }
     ]
   },
@@ -1169,14 +2227,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 1 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/1/",
+        "use": "Introduction: delay, throughput, layers and encapsulation.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "Introductory lab: annotate encapsulation and packet timings.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 1. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 1 questions for closed-book practice.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1196,14 +2279,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 2 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/2/",
+        "use": "Application layer: HTTP and DNS.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "HTTP and DNS labs: inspect requests, replies and caching.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 2. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 2 questions for closed-book practice.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1223,14 +2331,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 3 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/3/",
+        "use": "Transport: reliable transfer, UDP and TCP.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "TCP lab: sequence numbers, ACKs and retransmissions.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 3. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 3 questions for closed-book practice.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1250,14 +2383,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 3 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/3/",
+        "use": "Transport: congestion control, TCP window behaviour and fairness.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "TCP lab: inspect RTT and throughput; distinguish receiver and congestion limits.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 3. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 3 questions for closed-book practice.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1277,14 +2435,39 @@
     "core": true,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 4 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/4/",
+        "use": "Network data plane: IP addresses, subnetting and longest-prefix matching.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "IP lab: connect observed header fields to subnet calculations.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 4. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Python · ipaddress",
+        "url": "https://docs.python.org/3/library/ipaddress.html",
+        "use": "Check network/broadcast boundaries, subnet subdivision and /31 hosts against your hand calculation.",
+        "type": "Code",
+        "scope": "Direct API reference"
       }
     ]
   },
@@ -1304,14 +2487,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 5 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/5/",
+        "use": "Network control plane: routing algorithms, OSPF and BGP.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "IP and ICMP labs: inspect TTL and traceroute; pair with routing theory.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 5. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 5 questions for closed-book practice.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1331,14 +2539,39 @@
     "core": false,
     "resources": [
       {
-        "title": "Kurose–Ross online lectures",
-        "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm",
-        "use": "Free lectures"
+        "title": "Kurose–Ross · chapter 6 videos",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/videos/6/",
+        "use": "Link layer: Ethernet, ARP and switching. Use the security slides separately for TLS.",
+        "type": "Video",
+        "scope": "Chapter video index"
       },
       {
         "title": "Kurose–Ross interactive problems",
         "url": "https://gaia.cs.umass.edu/kurose_ross/interactive/",
-        "use": "Worked practice; security not covered by every exercise"
+        "use": "Worked practice; security not covered by every exercise",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Kurose–Ross · Wireshark labs",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/wireshark.php",
+        "use": "Ethernet/ARP and TLS labs: distinguish local delivery from encrypted transport.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "Kurose–Ross · chapter slides",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/ppt.php",
+        "use": "Choose chapter 6 and chapter 8 for security. Reconstruct one diagram before consulting the slide.",
+        "type": "Reading",
+        "scope": "Slide index"
+      },
+      {
+        "title": "Kurose–Ross · knowledge checks",
+        "url": "https://gaia.cs.umass.edu/kurose_ross/knowledgechecks/",
+        "use": "Choose chapter 6 questions for closed-book practice. Security chapter questions are not supplied here; use your topic drills for that part.",
+        "type": "Practice",
+        "scope": "Question index"
       }
     ]
   },
@@ -1360,12 +2593,37 @@
       {
         "title": "Qwen2-VL documentation",
         "url": "https://huggingface.co/docs/transformers/en/model_doc/qwen2_vl",
-        "use": "Processor settings and image token budgets"
+        "use": "Processor settings and image token budgets",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Qwen2-VL technical report",
         "url": "https://arxiv.org/abs/2409.12191",
-        "use": "Architecture evidence; a versioned example, not a latest-model claim"
+        "use": "Architecture evidence; a versioned example, not a latest-model claim",
+        "type": "Reading",
+        "scope": "Paper"
+      },
+      {
+        "title": "FSDL · Foundation Models",
+        "url": "https://fullstackdeeplearning.com/course/2022/lecture-7-foundation-models/",
+        "use": "CLIP and multimodal foundations; this 2022 lecture does not explain Qwen-specific processing.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "Torchvision · preprocessing and model code",
+        "url": "https://docs.pytorch.org/vision/stable/models.html",
+        "use": "Compare CNN/ViT weight transforms with the Qwen processor. Separate model constraints from preprocessing defaults.",
+        "type": "Code",
+        "scope": "Model index"
+      },
+      {
+        "title": "D2L · attention and transformers",
+        "url": "https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html",
+        "use": "Vision Transformer chapter: patch counts, embedding width and positional encodings.",
+        "type": "Reading",
+        "scope": "Chapter index"
       }
     ]
   },
@@ -1387,12 +2645,37 @@
       {
         "title": "RAG paper",
         "url": "https://arxiv.org/abs/2005.11401",
-        "use": "Original retrieval/generation formulation"
+        "use": "Original retrieval/generation formulation",
+        "type": "Reading",
+        "scope": "Paper"
       },
       {
         "title": "Hugging Face agents course",
         "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
-        "use": "Connect retrieval with tool-based systems"
+        "use": "Connect retrieval with tool-based systems",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · Augmented Language Models",
+        "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/augmented-language-models/",
+        "use": "Retrieval and tools: trace what information reaches the generator.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "FSDL · askFSDL walkthrough",
+        "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/askfsdl-walkthrough/",
+        "use": "Inspect the retrieval application design; treat 2023 APIs as historical examples.",
+        "type": "Practice",
+        "scope": "Project walkthrough"
+      },
+      {
+        "title": "Stanford CS336 · evaluation and data",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Use evaluation/data lectures to design contamination checks and generation evaluation; add retrieval recall separately.",
+        "type": "Reading",
+        "scope": "Lecture / assignment index"
       }
     ]
   },
@@ -1414,12 +2697,37 @@
       {
         "title": "Hugging Face agents course",
         "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
-        "use": "Tools, observations and agent loop"
+        "use": "Tools, observations and agent loop",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Anthropic: building effective agents",
         "url": "https://www.anthropic.com/engineering/building-effective-agents",
-        "use": "Compare workflow patterns and agent loops"
+        "use": "Compare workflow patterns and agent loops",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · Harrison Chase on agents",
+        "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/chase-agents/",
+        "use": "Historical 2023 introduction: tools and agent execution. Compare with current course APIs.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "FSDL · augmented language models",
+        "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/augmented-language-models/",
+        "use": "Contrast fixed retrieval workflows with tool-using model loops.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "FSDL · askFSDL walkthrough",
+        "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/askfsdl-walkthrough/",
+        "use": "Study a bounded retrieval application before adding autonomous planning.",
+        "type": "Practice",
+        "scope": "Project walkthrough"
       }
     ]
   },
@@ -1441,12 +2749,37 @@
       {
         "title": "Hugging Face LLM course",
         "url": "https://huggingface.co/learn/llm-course/chapter1/1",
-        "use": "Implementation foundations"
+        "use": "Implementation foundations",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Dive into Deep Learning",
         "url": "https://d2l.ai/",
-        "use": "Mathematical foundations"
+        "use": "Mathematical foundations",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "Stanford CS336 · systems lectures",
+        "url": "https://cs336.stanford.edu/spring2025/",
+        "use": "Use the public videos: architecture, GPUs, kernels and inference. Follow the associated assignments.",
+        "type": "Video",
+        "scope": "Lecture / video index"
+      },
+      {
+        "title": "Transformers · cache strategies",
+        "url": "https://huggingface.co/docs/transformers/en/kv_cache",
+        "use": "Compare dynamic, static, offloaded and quantized caches; estimate memory before running.",
+        "type": "Code",
+        "scope": "Direct guide"
+      },
+      {
+        "title": "FSDL · Foundation Models",
+        "url": "https://fullstackdeeplearning.com/course/2022/lecture-7-foundation-models/",
+        "use": "Architectural context for large models; use CS336 for newer systems details.",
+        "type": "Video",
+        "scope": "Lecture page"
       }
     ]
   },
@@ -1468,12 +2801,37 @@
       {
         "title": "D2L: generative modelling",
         "url": "https://d2l.ai/",
-        "use": "GAN chapters"
+        "use": "GAN chapters",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "DDPM paper",
         "url": "https://arxiv.org/abs/2006.11239",
-        "use": "Denoising objective and sampling algorithm"
+        "use": "Denoising objective and sampling algorithm",
+        "type": "Reading",
+        "scope": "Paper"
+      },
+      {
+        "title": "FSDL · Foundation Models",
+        "url": "https://fullstackdeeplearning.com/course/2022/lecture-7-foundation-models/",
+        "use": "Stable Diffusion and generative model context; connect to the DDPM equations.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "Hugging Face · Diffusers",
+        "url": "https://huggingface.co/docs/diffusers/index",
+        "use": "Inspect a scheduler and pipeline; distinguish training noise prediction from sampling.",
+        "type": "Code",
+        "scope": "Documentation index"
+      },
+      {
+        "title": "CS231n · diffusion assignments",
+        "url": "https://cs231n.github.io/",
+        "use": "Select the diffusion-model assignment; first implement a small forward-noising calculation.",
+        "type": "Practice",
+        "scope": "Assignment index"
       }
     ]
   },
@@ -1495,12 +2853,37 @@
       {
         "title": "TrOCR paper",
         "url": "https://arxiv.org/abs/2109.10282",
-        "use": "Recognition baseline and training setup"
+        "use": "Recognition baseline and training setup",
+        "type": "Reading",
+        "scope": "Paper"
       },
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Language modelling and evaluation background"
+        "use": "Language modelling and evaluation background",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · Paragraph Recognition",
+        "url": "https://fullstackdeeplearning.com/spring2021/lab-7/",
+        "use": "Trace detection/recognition and paragraph-level evaluation in the lab video.",
+        "type": "Video",
+        "scope": "Lab / video page"
+      },
+      {
+        "title": "Transformers · TrOCR",
+        "url": "https://huggingface.co/docs/transformers/en/model_doc/trocr",
+        "use": "Run a baseline and inspect image processor and decoder outputs; pretrained coverage is not a guarantee for Indic scripts.",
+        "type": "Code",
+        "scope": "Direct model guide"
+      },
+      {
+        "title": "PyTorch · sequence modelling",
+        "url": "https://docs.pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html",
+        "use": "Build a small sequence baseline to contrast with transformer recognition/correction.",
+        "type": "Practice",
+        "scope": "Direct tutorial"
       }
     ]
   },
@@ -1522,12 +2905,37 @@
       {
         "title": "scikit-learn evaluation guide",
         "url": "https://scikit-learn.org/stable/user_guide.html",
-        "use": "Model selection, metrics and leakage checks"
+        "use": "Model selection, metrics and leakage checks",
+        "type": "Reading",
+        "scope": "Reference / index"
       },
       {
         "title": "Stanford CS224N",
         "url": "https://web.stanford.edu/class/cs224n/",
-        "use": "Project and research communication resources"
+        "use": "Project and research communication resources",
+        "type": "Reading",
+        "scope": "Reference / index"
+      },
+      {
+        "title": "FSDL · Research Directions",
+        "url": "https://fullstackdeeplearning.com/spring2021/lecture-12/",
+        "use": "Observe how problems, limitations and research opportunities are framed; examples are from 2021.",
+        "type": "Video",
+        "scope": "Lecture page"
+      },
+      {
+        "title": "FSDL · experiment management",
+        "url": "https://fullstackdeeplearning.com/course/2022/",
+        "use": "Lab 4: experiment management. Record hypotheses, metrics, seeds and decisions.",
+        "type": "Practice",
+        "scope": "Lab index"
+      },
+      {
+        "title": "CS231n · taking a project to publication",
+        "url": "https://cs231n.github.io/choose-project/",
+        "use": "Use the project advice to sharpen your question, baselines, experimental evidence and contribution narrative.",
+        "type": "Reading",
+        "scope": "Direct article"
       }
     ]
   }

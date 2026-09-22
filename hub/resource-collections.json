@@ -1,0 +1,6 @@
+[
+ {"title":"Developer-Y / cs-video-courses","url":"https://github.com/Developer-Y/cs-video-courses","use":"Broad computer science video directory, including algorithms, databases, networking, vision and NLP.","inspiration":"Subject-first browsing and alternate instructors; start here when you want a different lecture style."},
+ {"title":"DAIR.AI / ML-YouTube-Courses","url":"https://github.com/dair-ai/ML-YouTube-Courses","use":"Video-course discovery for machine learning, deep learning, NLP and modern language-model applications.","inspiration":"Multiple video choices alongside mathematical and implementation resources."},
+ {"title":"prakhar1989 / awesome-courses","url":"https://github.com/prakhar1989/awesome-courses","use":"University computer science courses with pointers to lectures, notes, assignments and exams.","inspiration":"Make the resource format visible so you can choose between explanation and practice."},
+ {"title":"OSSU / computer-science","url":"https://github.com/ossu/computer-science","use":"A structured computer science curriculum useful for spotting prerequisite gaps.","inspiration":"Use its prerequisite structure as a reference, not another full curriculum to finish."}
+]

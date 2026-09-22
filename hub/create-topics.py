@@ -1,5 +1,6 @@
 """Original study prompts; resource links point to their authors' free material."""
 import json
+from resource_catalog import augment
 from pathlib import Path
 # subject | id | title | resource section | fast outcome | deep exercise | coding task | spoken questions (semicolon-separated)
 rows='''ML|linear-algebra|Vectors, matrices and tensor shapes|Linear algebra; matrix factorization|Explain a matrix product with all dimensions|Multiply a 2×3 matrix by a 3×2 matrix and interpret rank|Check reshape, transpose and broadcasting on small tensors|What does each axis represent?;When is a matrix non-invertible?;How is a dot product different from elementwise multiplication?
@@ -86,6 +87,7 @@ for line in rows.strip().splitlines():
  rr=resources[subject]
  if id in overrides: rr=overrides[id] if subject=='Advanced' else overrides[id]+rr
  topics.append(dict(id=id,subject=subject,title=title,section=section,fast=fast,deep=deep,code=code,drills=drills.split(';'),core=id in ['linear-algebra','probability','embeddings','positions','sift','fourier','image-processing','subnetting','attention','backprop'],resources=[dict(title=a,url=b,use=c) for a,b,c in rr]))
+topics=augment(topics)
 assert len(topics)==56
 Path('hub/topics.json').write_text(json.dumps(topics,ensure_ascii=False,indent=2)+'\n')
 print(len(topics),'topics')
